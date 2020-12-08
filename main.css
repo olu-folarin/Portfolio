@@ -85,6 +85,7 @@ a[class^='btn-']:hover {
 
 .items {
   display: grid;
+  grid-gap: 0;
   grid-template-columns: repeat(3, 1fr);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
@@ -121,9 +122,10 @@ a[class^='btn-']:hover {
     padding-top: 75%;
     overflow: hidden; }
   .item-image img {
-    width: 25rem;
-    height: 25rem;
+    width: 27rem;
+    height: 27rem;
     position: absolute;
+    margin-right: 0;
     top: 0;
     left: 0;
     line-height: 0; }
@@ -204,7 +206,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/maincover.jpg") no-repeat center right/cover;
+  background: url("maincover.jpg") no-repeat center right/cover, teal;
   height: 100vh;
   color: #fff;
   text-transform: uppercase; }
@@ -215,7 +217,7 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 #header-inner {
-  background: url("../img/maincover.jpg") no-repeat 20% 30%/cover;
+  background: url("maincover.jpg") no-repeat 20% 30%/cover;
   height: 5.6rem;
   border-bottom: 3px solid #ffbc00; }
 

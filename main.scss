@@ -74,7 +74,7 @@ img { width: 100% }
 //header
 #header {
   &-home {
-    background: $bg-image no-repeat center right/ cover;
+    background: $bg-image no-repeat center right/ cover, teal;
     height: 100vh;
     color: #fff;
     text-transform: uppercase;
